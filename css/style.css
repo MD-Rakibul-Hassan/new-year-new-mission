@@ -141,3 +141,48 @@ header .banner {
     border: none;
     cursor: pointer;
 }
+
+/* Styles for enrollment area  */
+.main-section .enrollment {
+    margin-top: 100px;
+    height: 482px;
+    background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-section .enrollment .enrollment-contents h3 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+.main-section .enrollment .enrollment-contents span {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; 
+    text-transform: capitalize;
+}
+.main-section .enrollment .enrollment-contents button {
+    border: none;
+    background-color: transparent;
+    display: block;
+    margin: 30px auto 0 auto;
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: #F00;
+    color: white;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
