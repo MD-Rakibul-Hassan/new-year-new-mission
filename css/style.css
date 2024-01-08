@@ -23,7 +23,7 @@
 /* This is the header section  */
 header .banner {
     height: 600px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("/resources/Banner\ Image.png");
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("/resources/banner.png");
     margin-top: 50px;
     border-radius: 16px;
     display: flex;
@@ -100,7 +100,7 @@ header .banner {
 /* Styles for welcome area  */
 .main-section .welcome {
     margin-top: 100px;
-    background:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('/resources/Vectorrr.png');
+    background:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("/resources/victor.png");
     height: 600px;
     border-radius: 16px;
     display: flex;
