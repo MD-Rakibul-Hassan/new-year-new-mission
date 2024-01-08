@@ -1,0 +1,55 @@
+/* External fonts familys form google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Edu+TAS+Beginner:wght@400;500&family=Kalam:wght@300&family=Kanit:ital,wght@1,100&family=Merriweather:wght@900&family=Playpen+Sans&family=Roboto&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Edu+TAS+Beginner:wght@400;500&family=Inter:wght@700&family=Kalam:wght@300&family=Kanit:ital,wght@1,100&family=Merriweather:wght@900&family=Playpen+Sans&family=Roboto&family=Ubuntu&display=swap');
+/* Styles for this website  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Commonly use styles  */
+:root {
+    --common-font-for-heading : Merriweather;
+    --common-font-for-dicription : Merriweather;
+    --common-text-color : #F00;
+}
+/* Maximam width of the webpage  */
+.container {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* This is the header section  */
+header .banner {
+    height: 600px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("/resources/Banner\ Image.png");
+    margin-top: 50px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner .banner-text h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.banner .banner-text h1 {
+    width: 632px;
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+}
