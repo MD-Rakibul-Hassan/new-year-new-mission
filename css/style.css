@@ -248,4 +248,57 @@ header .banner {
     line-height: 32px;
     margin: 20px 0;
 }
-
+/* Styles for holyday sale area  */
+.main-section .holiday-sale {
+    margin-top: 100px;
+}
+.main-section .holiday-sale .holiday-sale-text {
+    text-align: center;
+}
+.main-section .holiday-sale .holiday-sale-text h4 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.main-section .holiday-sale .holiday-sale-text h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 20px 0;
+}
+.main-section .holiday-sale .holiday-sale-text h1 span {
+    color: #F00;
+}
+.main-section .holiday-sale .holiday-sale-text p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+.main-section .holiday-sale .holiday-sale-imgs {
+    display: flex;
+    margin-top: 30px;
+    background: url('/resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+}
+.holiday-sale-imgs .holiday-sale-right{
+    position: absolute;
+    right: 0;
+    bottom: 225px;
+}
+.holiday-sale-imgs .holiday-sale-right .offer {
+    position: absolute;
+    left: -150px;
+    bottom: 70px;
+}
