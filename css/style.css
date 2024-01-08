@@ -302,3 +302,116 @@ header .banner {
     left: -150px;
     bottom: 70px;
 }
+/* Styles for portfolio area  */
+.main-section .portfolio {
+    margin-top: 100px;
+}
+.main-section .portfolio .portfolio-text h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.main-section .portfolio .portfolio-text h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 18px 0;
+}
+.main-section .portfolio .portfolio-text p {
+    width:  896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+.main-section .portfolio .portfolio-products {
+    margin-top: 30px;
+}
+.main-section .portfolio .portfolio-products img {
+    width: 400px;
+    margin: 15px;
+    transition: 0.5s;
+}
+.main-section .portfolio .portfolio-products img:hover {
+    padding: 20px;
+}
+/* Styles for subscribe area  */
+.main-section .subcribe {
+    margin-top: 100px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    height: 620px;
+    text-align: center;
+}
+.main-section .subcribe .subcribe-icon {
+    text-align: center;
+    padding-top: 50px;
+}
+.main-section .subcribe h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 20px 0;
+}
+.main-section .subcribe p {
+    margin: 0 auto;
+    color: rgba(7, 2, 17, 0.60);
+    width: 896px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+
+}
+.main-section .subcribe .email-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    position: relative;
+   
+}
+.main-section .subcribe .email-me input {
+    width: 648px;
+    height: 72px;
+    position: absolute;
+    padding-left: 20px;
+    border-radius: 20px;
+    border: 0;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal
+}
+.main-section .subcribe .email-me button {
+    position: absolute;
+    height: 72px;
+    width: 200px;
+    right: 25%;
+    border: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #F00;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize
+}
